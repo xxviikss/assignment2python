@@ -82,10 +82,12 @@ git config --global fetch.fsck.badTimezone ignore
 # Beautifulsoup
 ## Installation
 
-```  >>> from bs4 import BeautifulSoup
+``` 
+>>> from bs4 import BeautifulSoup
 ```
 ## Using
-```  >>> soup = BeautifulSoup("<p>Some<b>bad<i>HTML")
+```
+>>> soup = BeautifulSoup("<p>Some<b>bad<i>HTML")
   >>> print soup.prettify()
 <html>
    <body>
