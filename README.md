@@ -79,15 +79,15 @@ git config --global fetch.fsck.badTimezone ignore
 
 [![Kenneth Reitz](https://raw.githubusercontent.com/psf/requests/main/ext/kr.png)](https://kennethreitz.org) [![Python Software Foundation](https://raw.githubusercontent.com/psf/requests/main/ext/psf.png)](https://www.python.org/psf)
 
-#Beautifulsoup
-##Installation
+# Beautifulsoup
+## Installation
 
 ```  >>> from bs4 import BeautifulSoup
-  >>> soup = BeautifulSoup("<p>Some<b>bad<i>HTML")
-  >>> print soup.prettify()
 ```
-##Using
-```<html>
+## Using
+```  >>> soup = BeautifulSoup("<p>Some<b>bad<i>HTML")
+  >>> print soup.prettify()
+<html>
    <body>
     <p>
      Some
