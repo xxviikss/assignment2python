@@ -120,13 +120,13 @@ git config --global fetch.fsck.badTimezone ignore
    </tag3>
   </tag1>
 ```
-= Full documentation =
+### = Full documentation =
 
 The bs4/doc/ directory contains full documentation in Sphinx
 format. Run "make html" in that directory to create HTML
 documentation.
 
-= Running the unit tests =
+### = Running the unit tests =
 
 Beautiful Soup supports unit test discovery from the project root directory:
 
